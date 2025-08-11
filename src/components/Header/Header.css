@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  background-color: aliceblue;
+}
+
+.btn {
+  display: flex;
+  gap: 40px;
+  padding: 20px;
+}
+
+.btn button {
+  background-color: rgb(111, 131, 243);
+  border-radius: 8px;
+  border: none;
+  padding: 15px;
+  font-size: large;
+  color: #fff;
+}

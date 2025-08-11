@@ -1,0 +1,7 @@
+.linhaTabela:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+
+.linhaTabela:nth-child(even) {
+  background-color: #ffffff;
+}
