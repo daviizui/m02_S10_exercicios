@@ -1,0 +1,19 @@
+.table {
+  width: 70%;
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+.table th {
+  background-color: rgb(111, 131, 243);
+  color: #fff;
+  font-weight: normal;
+  border: none;
+}
+
+.table th,
+.table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
