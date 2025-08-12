@@ -1,8 +1,10 @@
-import { useEffect, useState } from "react";
+//import { useEffect, useState } from "react";
 import "./InstrumentosCard.css";
+import useFetch from "../../HooksPersonalizados/useFetch";
 
 export default function InstrumentosCard() {
-  const [itemInfo, setItemInfo] = useState([]);
+  {
+    /* const [itemInfo, setItemInfo] = useState([]);
 
   useEffect(() => {
     fetch("http://localhost:3000/equipamentos")
@@ -13,7 +15,9 @@ export default function InstrumentosCard() {
       .catch((error) => {
         console.log("Erroao buscar dados", error);
       });
-  }, []);
+  }, []);*/
+  }
+  const { itemInfo } = useFetch("http://localhost:3000/equipamentos");
 
   return (
     <div className="cards">

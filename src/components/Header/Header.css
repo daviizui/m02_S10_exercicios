@@ -1,23 +1,30 @@
 .header {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   width: 100vw;
-
   background-color: aliceblue;
 }
 
 .btn {
   display: flex;
+
   gap: 40px;
   padding: 20px;
 }
 
-.btn button {
+.btn-link {
   background-color: rgb(111, 131, 243);
   border-radius: 8px;
   border: none;
   padding: 15px;
   font-size: large;
   color: #fff;
+  text-decoration: none;
+  width: 150px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
